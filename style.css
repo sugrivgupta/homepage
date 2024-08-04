@@ -1,0 +1,165 @@
+body{
+margin: 0 0 0 0;
+background-color: #eeeeee;
+    }
+#menu{
+  border-bottom: 2px solid red;
+  margin: 0px 15px 0px auto;
+  padding:0 0 0 0;
+  width: 82%;
+}
+#menu>ul{
+  background:none;
+}
+#menu ul{
+  list-style: none;
+  position: relative;
+  float: left;
+  margin:0;
+  padding:0;
+}
+#menu ul a{
+  display: block;
+  text-decoration: none;
+  font: 13px arial,sans-serif;
+  color: black;
+  padding: 4px 5px;
+}
+#menu ul li{
+  position: relative;
+  float: left;
+  margin:0px;
+  padding: 0;
+}
+#menu ul li:hover{
+  background-color: lightblue;
+}
+#menu ul ul{
+  display: none;
+  position: absolute;
+  top:100%;
+  left:0;
+  background: #eeeeee;
+  padding: 0;
+}
+#menu ul ul li{
+  float: none;
+  width: 200px;
+  border-bottom: 1px solid #cccccc;
+  border-left:1px solid #cccccc;
+}
+#menu ul ul li:hover{
+  float: none;
+  width: 200px;
+  border-bottom: 2px solid blue;
+  border-left: 2px solid blue;
+}
+#menu ul ul a{
+  line-height:120%;
+  padding:4px 5px;
+}
+#menu ul ul ul{
+  top:0px;
+  left:100%
+}
+#menu ul li:hover>ul{
+  display: block;
+}
+
+#header{
+  border-bottom: 1px solid blue;
+  background-image: url(images/header.jfif);
+  margin: 0 auto 0px auto;
+  padding:0 0 0 0;
+  width: 100%;
+  height:125px;
+  box-sizing: border-box;
+  float: right;
+}
+#sidebar{
+  border: 0px solid blue;
+  margin: auto 0 0px auto;
+  padding:0 0 0 0;
+  width: 15%;
+  height:500px;
+  box-sizing: border-box;
+  float: left;
+}
+#sideright{
+  border: 0px solid red;
+  background:white;
+  margin: auto 0 0px auto;
+  padding:15px;
+  width: 85%;
+  height:500px;
+  box-sizing: border-box;
+  float: right;
+
+}
+
+
+
+
+#stand{
+  border-bottom: 0px solid red;
+  margin: 37px 15px 0px 300px;
+  padding:0 0 0 0;
+  width: 82%;
+}
+#stand>ul{
+  background:none;
+}
+#stand ul{
+  list-style: none;
+  position: relative;
+  float: left;
+  margin:0;
+  padding:0;
+}
+#stand ul a{
+  display: block;
+  text-decoration: none;
+  font: bold 20px arial,sans-serif;
+  color: tomato;
+  padding: 4px 5px;
+}
+#stand ul li{
+  position: relative;
+  float: left;
+  margin:0px;
+  padding: 0;
+}
+#stand ul li:hover{
+  background-color: lightblue;
+}
+#stand ul ul{
+  display: none;
+  position: absolute;
+  top:100%;
+  left:0;
+  background: #eeeeee;
+  padding: 0;
+}
+#stand ul ul li{
+  float: none;
+  width: 200px;
+  border-bottom: 1px solid #cccccc;
+  border-left:1px solid #cccccc;
+}
+#stand ul ul li:hover{
+  float: none;
+  width: 200px;
+  border-bottom: 2px solid blue;
+  border-left: 2px solid blue;
+}
+#stand ul ul a{
+  line-height:120%;
+  padding:4px 5px;
+}
+#stand ul ul ul{
+  top:0px;
+  left:100%
+}
+#stand ul li:hover>ul{
+  display: block;
+}
